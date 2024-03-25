@@ -34,6 +34,7 @@ namespace WebApi.Controllers
                 Role = UserRole.User,
                 FirstName = request.FirstName,
                 SecondName = request.SecondName,
+                IsApproved = true
             };
             try
             {
